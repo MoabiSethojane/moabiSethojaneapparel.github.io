@@ -1,0 +1,95 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+body{
+	background: url("./images/bg-pattern-desktop.svg");
+
+}
+.content-table #plogo{
+text-align: left;
+	padding: 80px;
+}
+.content-table #myimage{
+width: 100%;
+
+}
+.content-table{
+	width: 100%;
+
+}
+.content-table #first_head{
+	text-align: center;
+	font-size: 50px;
+	color: rgba(255, 99, 71, 0.6);
+}
+.content-table #second_head{ 
+	text-align: center;
+	font-size: 50px;
+}
+.content-table #email{
+		border-radius: 20px;
+		border-color: rgba(255, 99, 71, 0.6);
+		
+		width: 100%;
+		position: right;
+		padding: 10px;
+		margin-right: 5px;	
+}
+
+.content-table td{
+	text-align: center;
+}
+.content-table #p1{
+	text-align: left;
+	padding: 25px;
+color:hsl(0, 93%, 68%) ;	
+} 
+
+ 
+::placeholder{
+	color: rgba(255, 99, 71, 0.6);
+}
+#error_message{
+	 margin-bottom: 20px;
+    padding: 10px;
+ 
+    text-align: center;
+    font-size: 14px;
+    border-radius: 15px;
+    color: rgba(255, 99, 71, 0.6);
+    font-family: sans-serif;
+}
+#arrow-image{
+	padding-top: 20px;
+	padding-left: 40px;
+	padding-bottom: 9px;
+	padding-right: 10px;	
+}
+.content-table form .field{
+	width: 100%;
+	height: 45px;
+	display: flex;
+	position: relative;
+}
+form .field input{
+font-size: 18px;
+outline: none;
+}
+ form .field .icons{
+ 	position: absolute;
+ 	right:7px;
+ 	top: 50%;
+ 	transform: translateY(-50%);
+
+ }
+
+.field .icons span#arrow-image{
+	background-color:rgba(255, 99, 71, 0.6);
+border-radius: 25%;
+cursor: pointer;
+}
+
+
+

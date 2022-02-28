@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+<link  href="https://fonts.google.com/specimen/Josefin+Sans">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+   
+
+
+  <main>
+    <table class="content-table" border="1px"solid>
+      <tr>
+        <td>
+          <p id="plogo">
+            <img  id="logo" src="./images/logo.svg" >
+          </p>
+          
+        </td>
+        <td rowspan="4"> 
+        <img id="myimage" img src='./images/hero-desktop.jpg'>
+       </td>
+      </tr>
+     <tr>
+       <td>
+         <p  id="first_head"> We're</p>
+          <h3 id="second_head"> COMING <br>SOON<br></h3> 
+       </td>
+       
+     </tr> 
+     <tr>
+       <td>
+         <p id="p1">Hello fellow shoppers! We're currently building our new<br> fashion store. 
+          Add your email below to stay up-to-date with<br> announcements and our launch deals.</p>
+       </td>
+     </tr>
+<tr>
+  <td >
+    <form action="https://formspree.io/f/xlezbqnp" method="POST">
+  <div class="field">
+    <input onkeyup="check()" type="text" id="email" name="email" placeholder=" Email Address">
+    <div class="icons">
+      <span id="erro-image">
+       <img src="./images/icon-error.svg">
+     </span>
+     <span id="arrow-image">
+       <img src="./images/icon-arrow.svg">
+     </span>
+     
+   </div>
+    </div>
+    <div id="error_message">
+     Please provide a valid email
+   </div>
+    </form>
+   
+  </td>
+  <td >
+    
+  </td>
+
+</tr>
+  
+ 
+    </table>
+
+  </main>
+
+ 
+  
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Moabi Sethojane</a>.
+    </p>
+  </footer>
+  <script type="text/javascript" src="apparel.js"></script>
+</body>
+</html>
